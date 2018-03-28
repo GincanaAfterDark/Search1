@@ -6,17 +6,25 @@
 *     http://github.com/bunkat/wordfind
 */
 
+
+
 p {
-  font: 22pt sans-serif;
+  font: 22pt Calibri;
   margin: 20px 20px 0px 20px;
 }
 
+h1 {
+  font: 40pt Calibri;
+   margin: 10px 10px 0px 10px;
+   }
+
+body{background: url('../src/logo.jpg') fixed no-repeat top right;}
 /**
 * Styles for the puzzle
 */
 #puzzle {
-  border: 1px solid black;
-  padding: 20px;
+  border: 2px solid black;
+  padding: 10px;
   float: left;
   margin: 30px 20px;
 }
@@ -33,7 +41,7 @@ p {
   text-transform: uppercase;
   background-color: white;
   border: 0;
-  font: 1em sans-serif;
+  font: 1.5em Calibri;
 }
 
 button::-moz-focus-inner {
@@ -58,7 +66,7 @@ button::-moz-focus-inner {
 
 /* indicates that all words have been found */
 #puzzle .complete {
-  background-color: green;
+  background-color: #b9a1ea;
 }
 
 /**
@@ -80,8 +88,8 @@ button::-moz-focus-inner {
 }
 
 #words li {
-  padding: 3px 0;
-  font: 1em sans-serif;
+  padding: 2px 0;
+  font: 1em Calibri;
 }
 
 /* indicates that the word has been found */
