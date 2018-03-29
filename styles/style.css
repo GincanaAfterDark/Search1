@@ -9,7 +9,7 @@ h1 {
    margin: 10px 10px 0px 10px;
    }
 
-body{background: url('../src/logo.jpg') fixed no-repeat bottom right;}
+body{background: url('../src/logo.jpg') fixed no-repeat top left;}
 /**
 * Styles for the puzzle
 */
